@@ -14,7 +14,7 @@ keypoints:
 - "Version control also allows many people to work in parallel."
 ---
 
-## What is Version Control? ## 
+## What is Version Control? ##
 
 Version control (or **VC** for short ) can also be called **revision control** or **source control**. The simplest description is that VC is a tool that tracks **changes** to files. 
 
