@@ -1,5 +1,5 @@
 ---
-title: "Setting Up"
+title: "Setting Up Git"
 slug: dirac-version-control-setting-up-git
 teaching: 5
 exercises: 0
