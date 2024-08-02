@@ -1,5 +1,5 @@
 ---
-title: "Exploring History"
+title: "SFT012 Exploring History"
 slug: dirac-version-control-exploring-history
 teaching: 10
 exercises: 0

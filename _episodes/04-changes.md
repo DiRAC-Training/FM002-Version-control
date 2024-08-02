@@ -121,7 +121,7 @@ If we run `git status` now:
 ~~~
 $ git status
 ~~~
-{: .bash}
+{: .language-bash}
 
 ~~~
 # On branch main

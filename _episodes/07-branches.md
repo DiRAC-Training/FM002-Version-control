@@ -83,7 +83,7 @@ Switched to branch 'dev'
 ~~~
 {: .output}
 
-Any commits you make on this branch will exist *only* on this branch - when you use `git checkout main` to switch back to your **main branch**, they won't show up in your `git log` results! To merge the commits from another branch into your current one, you can use `git pull <other branch>`. There's a lot more to branching, and we have worked examples of how to use them [in our other material](https://southampton-rsg.github.io/swc-git-novice/06-collab/index.html#introducing-branches).
+Any commits you make on this branch will exist *only* on this branch - when you use `git checkout main` to switch back to your **main branch**, they won't show up in your `git log` results! To merge the commits from another branch into your current one, you can use `git pull <other branch>`. 
 
 
 {% include links.md %}
