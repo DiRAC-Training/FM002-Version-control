@@ -246,10 +246,11 @@ Git works on **commits** - snapshots of the current state of the repository. *"n
 > In this workshop, we have a **default branch** called **main**. In older versions of Git,
 > if you create a new repository on the command line, it'll have a default branch called **master**, and a lot of examples online will show **master** instead of **main**. Don't worry - branches work the same, regardless of what they're called!
 {: .callout}
->
+>{% include links.md %}
+> 
 >## Key points:
 - "`git clone` creates a local copy of a repository from a URL."
 - "Git stores all of its repository data in the `.git` directory."
-- {: .keypoints}
+{: .keypoints}
 
-{% include links.md %}
+
