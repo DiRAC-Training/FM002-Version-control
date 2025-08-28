@@ -82,9 +82,11 @@ Switched to branch 'dev'
 
 Any commits you make on this branch will exist *only* on this branch - when you use `git checkout main` to switch back to your **main branch**, they won't show up in your `git log` results! To merge the commits from another branch into your current one, you can use `git pull <other branch>`. 
 
+{% include links.md %}
+
 ## Key points:
 - "Branches are parallel versions of a repository"
 - "You can easily switch between branches, and merge their changes"
 - "Branches help with code sharing and collaboration"
 {: .keypoints}
-{% include links.md %}
+
