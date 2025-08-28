@@ -10,9 +10,7 @@ objectives:
 - "Configure `git` the first time it is used on a computer"
 - "Understand the meaning of the `--global` configuration flag"
 - "Add an SSH key to a GitHub account"
-keypoints:
-- "Use `git config` with the `--global` option to configure a user name, email address, editor, and other preferences once per machine."
-- "GitHub needs an SSH key to allow access"
+
 ---
 
 > ## Prerequisites
@@ -22,7 +20,7 @@ keypoints:
 > *but isn't mandatory*.
 {: .prereq}
 
-## Setting Up Git
+## Setting up Git
 
 We're going to use Git on the command line on our remote server, so we need to connect to it first, so using a terminal:
 
@@ -31,7 +29,7 @@ $ ssh username@servername
 ~~~
 {: .bash}
 
-> ## Don't have a GitHub Account?
+> ## Don't have a GitHub account?
 > 
 > For this lesson you'll need an account on GitHub, so if you don't have an account on GitHub, please go
 > and [create one now](https://github.com/join).
@@ -71,7 +69,7 @@ $ git config --list
 ~~~
 {: .language-bash}
 
-> ## Git Help and Manual
+> ## Git help and manual
 >
 > If you forget a `git` command, you can access the list of commands by using `-h` and access the Git manual by using `--help` :
 >
@@ -84,5 +82,9 @@ $ git config --list
 > While viewing the manual, remember the `:` is a prompt waiting for commands and you can press <kbd>Q</kbd> to exit the manual.
 >
 {: .callout}
+## Key points:
+- "Use `git config` with the `--global` option to configure a user name, email address, editor, and other preferences once per machine."
+- "GitHub needs an SSH key to allow access"
 
 {% include links.md %}
+{: .keypoints}
