@@ -9,18 +9,16 @@ questions:
 objectives:
 - "Understand the benefits of an automated version control system."
 - "Understand the basics of how automated version control systems work."
-keypoints:
-- "Version control is like an unlimited ‘undo’."
-- "Version control also allows many people to work in parallel."
+
 ---
 
-## What is Version Control? ## 
+## What is version control? ## 
 
 Version control (or **VC** for short ) can also be called **revision control** or **source control**. The simplest description is that VC is a tool that tracks **changes** to files. 
 
 ## Why should I use it? - Three reasons ##
 
-### 1. A More Efficient Backup ###
+### 1. A more efficient backup ###
 
 ![Manual version control]({{ site.url }}{{ site.baseurl }}/fig/00-intro/revisions.gif){:width="25%"}
 
@@ -37,7 +35,7 @@ When you use  **version control**, at any point in the future, you can retrieve 
 Version control makes **reproducibility** simpler. Without using version control it's very hard to say that your research is truly reproducible...
 
 
-### 3. To Aid Collaboration ###
+### 3. To aid collaboration ###
 
 As well as maintaining a revison history, VC tools also help multiple authors **collaborate** on the **same file** or set of files.
 
@@ -49,7 +47,7 @@ As well as maintaining a revison history, VC tools also help multiple authors **
 
 We'll look at both the backup and collaboration scenarios, but first it's useful to understand what going on **under the hood**.
 
-## How do Version Control Tools Work? ##
+## How do version control tools work? ##
 
 ![Changes are tracked sequentially]({{ site.url }}{{ site.baseurl }}/fig/00-intro/track_changes.svg){:width="45%"}
 
@@ -64,7 +62,7 @@ Once you think of **changes as separate from the document** itself, you can then
 If there aren't conflicts, you can even try to combine two different sets of changes together onto the same base document, a process called **merging**.
 
 
-## Version Control Alternatives ##
+## Version control alternatives ##
 
 **Git** is overwhelmingly the most popular version control system in academia, and beyond.
 It's a **distributed** version control system, where every developer in a team has their own **full copy** of a repository, and can synchronise between them.
@@ -79,7 +77,7 @@ or possibly **Subversion**, a **centralised** system where there's a single copy
 
 Because Git is so popular, and making a GitHub account is so easy, we're going to teach you how to use them.
 
-## Graphical User Interfaces ##
+## Graphical user interfaces ##
 
 We're going to teach you how to use Git on the *command line*, as that's the only version that will be available on most HPC resources. This isn't the only way to use it, however- there are many different graphical user interfaces for Git, like:
 
@@ -91,3 +89,8 @@ Fundamentally, though, these are all just 'wrappers' around the command line ver
 If you understand what they're doing under the hood, you can easily switch between versions. You can, for example, manage your code on DIRAC using command-line git and GitHub Desktop on your desktop workstation.
 
 {% include links.md %}
+
+## Key points:
+- "Version control is like an unlimited ‘undo’."
+- "Version control also allows many people to work in parallel."
+  {: .keypoint}
