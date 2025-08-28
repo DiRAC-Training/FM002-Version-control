@@ -14,7 +14,7 @@ objectives:
 
 ### Add to version control
 
-We've got a repository now containing a few pre-existing files - so let's add one more. You might remember seeing GitHub suggest we added a README.md to let people know what our code is about, so let's do that on the command line. We'll use the text editor `nano`, as:
+We've got a repository now containing a few pre-existing files; so let's add one more. You might remember seeing GitHub suggest we added a README.md to let people know what our code is about, so let's do that on the command line. We'll use the text editor `nano`, as:
 
 ~~~
 $ nano README.md
@@ -72,7 +72,7 @@ $ git status
 ~~~
 {: .output}
 
-Git now knows that it's supposed to **keep track** of `README.md`, just like `climate_analysis.py` and `temp_conversion.py` but it **hasn't recorded that as a commit** yet. We dont have a snapshot of the repository with all the existing files *and* `README.md`.
+Git now knows that it's supposed to **keep track** of `README.md`, just like `climate_analysis.py` and `temp_conversion.py` but it **hasn't recorded that as a commit** yet. We don't have a snapshot of the repository with all the existing files *and* `README.md`.
 
 ### Initial commit
 To get it to do that,
@@ -135,7 +135,7 @@ where it keeps track of things that have been **added** to
 the current [change set](reference.html#change-set)
 but **not yet committed**.
 `git add` puts things in this area,
-and `git commit` then copies them to long-term storage (as a commit)
+and `git commit` then copies them to long-term storage (as a commit).
 
 > ## What's the point of the staging area?
 >
@@ -224,12 +224,10 @@ The last line is the key phrase:
 "no changes added to **commit**".
 
 
-So, while we have changed this file,
-but we haven't told Git we will want to save those changes
-(which we do with `git add`)
-much less actually saved them (which we do with `git commit`).
+We have changed this file, but we haven't told Git we will want to save those changes
+(which we do with `git add`), much less actually saved them (which we do with `git commit`).
 
-**It's important to remember that git only stores changes when you make a commit**
+**It's important to remember that Git only stores changes when you make a commit**
 
 ### Review changes and commit
 It is good practice to always **review
@@ -261,10 +259,10 @@ telling them how **to reconstruct one file given the other**.
 
 The key things to note are:
 
- 1. Line 1: The **files** that are being **compared** (a/ and b/ are labels, not paths)
- 2. Line 2: The two **hex strings** on the second line which parts of the **hashes** of the files being compares
- 3. Line 5: The **lines** that have changed. (It's complex)
- 4. Below that, the changes - note the '**+**' marker which shows an addtion
+ 1. Line 1: The **files** that are being **compared** (a/ and b/ are labels, not paths).
+ 2. Line 2: The two **hex strings** on the second line which parts of the **hashes** of the files being compares.
+ 3. Line 5: The **lines** that have changed. (It's complex).
+ 4. Below that, the changes - note the '**+**' marker which shows an addition.
 
 After reviewing our change, it's time to commit it:
 
