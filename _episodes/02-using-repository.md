@@ -251,6 +251,6 @@ Git works on **commits** - snapshots of the current state of the repository. *"n
 >## Key points:
 - "`git clone` creates a local copy of a repository from a URL."
 - "Git stores all of its repository data in the `.git` directory."
-{: .keypoints}
+> {: .keypoints}
 
 
