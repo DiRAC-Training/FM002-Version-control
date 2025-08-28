@@ -459,6 +459,8 @@ we first need to add the changed files to the staging area
 (`git add`) and then commit the staged changes to the
 repository (`git commit`).
 
+{% include links.md %}
+
 ## Key points:
 - "`git status` shows the status of a repository."
 - "Files can be stored in a project’s working directory (which users see), the staging area (where the next commit is being built up) and the local repository (where commits are permanently recorded)."
