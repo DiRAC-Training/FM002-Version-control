@@ -8,9 +8,7 @@ questions:
 objectives:
 - "Add an SSH key to a GitHub account"
 - "Understand `git push` and `git pull`"
-keypoints:
-- "Git can easily synchronise your local repository with a remote one"
-- "GitHub needs an SSH key to allow access"
+
 ---
 
 We've learned how to use a **local repository** to store our code and view changes:
@@ -19,7 +17,7 @@ We've learned how to use a **local repository** to store our code and view chang
 
 Now, however, we'd like to share the changes we've made to our code with others, as well as making sure we have an off-site backup in case things go wrong. We need to upload our changes in our **local repository** to a **remote repository**.
 
-> ## Why Have an Off-site Backup?
+> ## Why have an off-site backup?
 >
 > You might wonder why having an off-site backup (i.e. a copy not stored at your University) is so important. In 2005, [a fire destroyed a building at the University of Southampton](http://news.bbc.co.uk/1/hi/england/hampshire/4390048.stm). Some people's *entire PhD projects* were wiped out in the blaze. To ensure your PhD only involves a normal level of suffering, please make sure you have off-site backups of as much of your work as possible!
 >
@@ -73,7 +71,7 @@ $ git config --global push.default simple
 ~~~
 {: .bash}
 
-> ## What *is* a Branch, Though?
+> ## What *is* a branch, though?
 > We're not covering them in this material, but they're very useful.
 > Branches allow you to have alternate versions of the code 'branching off' from another branch (e.g. `main`). 
 > You can try out new features in these branches without disrupting your `main` version of the code, then **merge them in** once you've finished. We have a **Stretch Episode** with a brief description of them.
@@ -91,7 +89,7 @@ Conveniently, the contents of `README.md` are shown on the main page, with forma
 > [Credit: Mitch Altman, CC BY-SA 2.0](https://www.flickr.com/photos/maltman23/38138235276)
 {: .callout}
 
-## Collaborating on a Remote Repository
+## Collaborating on a remote repository
 
 Now we know how to **push** our work from our local repository to a remote one, we need to know the reverse - how to **pull** updates to the code that someone else has made.
 
@@ -141,7 +139,7 @@ Then commit the changes directly to our `main` branch with a descriptive commit 
 
 ![Updated remote repository]({{ site.url }}{{ site.baseurl }}/fig/05-remote/github-updated.png)
 
-### Push Conflicts
+### Push conflicts
 
 Great. Now let's go back to the terminal and try pushing our local changes to the remote repository. This is going to cause problems, however:
 
@@ -164,7 +162,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 Git helpfully tells us that actually, there are commits present in the **remote repository** that we don't have in our **local repository**. 
 
-### Merge Conflicts
+### Merge conflicts
 
 We'll need to **pull** those commits into our local repository before we can push our own updates back!
 
@@ -275,7 +273,7 @@ Now back on GitHub we can see that our `README.md` shows the text from both comm
 
 Now we can successfully collaboratively develop our research code with others.
 
-> ## Conflict Mitigation
+> ## Conflict mitigation
 > If you've got multiple different people working on a code at once,
 > then the **branches** we mentioned earlier can really help reduce conflicts.
 > Each collaborator can work on their own branch, and only merge them back in once everything is finished - dramatically reducing the number of conflicts!
@@ -284,3 +282,9 @@ Now we can successfully collaboratively develop our research code with others.
 ![Remote Repository Commands]({{ site.url }}{{ site.baseurl }}/fig/05-remote/remote.png){:width="60%"}
 
 {% include links.md %}
+
+## Key points:
+- "Git can easily synchronise your local repository with a remote one"
+- "GitHub needs an SSH key to allow access"
+{: .keypoints}
+
