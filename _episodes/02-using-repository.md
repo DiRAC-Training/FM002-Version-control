@@ -99,7 +99,7 @@ We should get prompted to give details for what we'd like our copy of the templa
 ![Repository Details]({{ site.url }}{{ site.baseurl }}/fig/02-using-repository/template-details.png)
 
 > ## Public or private?
-> GitHub will allow you to create private repositories, so only people you specify can access the code, but it's always best to keep your code public - especially if you're going to use it in a paper! Code that generates or analyses data is a fundamental part of your method, and if you don't include your full method in papers your work can't be reproduced, and reproducibility is key to the scientific process. **Always** keep your repositories public unless you've got a strong reason, like embargoes imposed by industrial partners.
+> GitHub will allow you to create private repositories, so only people you specify can access the code, but it's always best to keep your code public, especially if you're going to use it in a paper! Code that generates or analyses data is a fundamental part of your method, and if you don't include your full method in papers your work can't be reproduced, and reproducibility is key to the scientific process. **ALWAYS** keep your repositories public unless you've got a strong reason, like embargoes imposed by industrial partners.
 >
 > A major advantage of this is if you leave academia, or you switch institution and forget to update the email on your GitHub account before you lose your old one, your work won't be lost forever!
 {: .callout}
