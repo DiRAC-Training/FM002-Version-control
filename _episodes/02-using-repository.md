@@ -10,17 +10,15 @@ objectives:
 - "Create a repository from a template."
 - "Clone and use a Git repository."
 - "Describe the purpose of the `.git` directory."
-keypoints:
-- "`git clone` creates a local copy of a repository from a URL."
-- "Git stores all of its repository data in the `.git` directory."
+
 ---
 
-# Creating a Repository
+# Creating a repository
 
 A **repository** is a directory that is under **version control** - it can track changes to files within it. Git also makes it easy to sync up a **local repository** on your computer (or DiRAC server) with a **remote repository** on the internet.
 
 
-## Setting up an SSH Key
+## Setting up an SSH key
 
 In this episode we'll be creating a new repository on GitHub then downloading and using that repository on DiRAC. In order to do that, we'll need a way to gain access to our repository from the DiRAC server. Just as we needed an SSH key to connect from our computer to the DiRAC server, we need an SSH key to connect from the DiRAC server to GitHub, so let's create a new one.
 
@@ -86,7 +84,7 @@ ssh-rsa <SNIPPED FOR SECURITY> dc-mang1@login6a.pri.cosma7.alces.network
 **Make sure you copy the `.pub` file and not the private key!** Your private key lives on your machine and is never shared with anyone else. Then click **Add key**.
 
 
-## Using a Template
+## Using a template
 
 Now let's create a new repository for us to work on.
 
@@ -100,7 +98,7 @@ We should get prompted to give details for what we'd like our copy of the templa
 
 ![Repository Details]({{ site.url }}{{ site.baseurl }}/fig/02-using-repository/template-details.png)
 
-> ## Public or Private?
+> ## Public or private?
 > GitHub will allow you to create private repositories, so only people you specify can access the code, but it's always best to keep your code public - especially if you're going to use it in a paper! Code that generates or analyses data is a fundamental part of your method, and if you don't include your full method in papers your work can't be reproduced, and reproducibility is key to the scientific process. **Always** keep your repositories public unless you've got a strong reason, like embargoes imposed by industrial partners.
 >
 > A major advantage of this is if you leave academia, or you switch institution and forget to update the email on your GitHub account before you lose your old one, your work won't be lost forever!
@@ -109,7 +107,7 @@ We should get prompted to give details for what we'd like our copy of the templa
 After a brief wait, GitHub will have created a **remote repository** - a copy of the files and their history stored on GitHub's servers.
 
 
-## Cloning the Repository
+## Cloning the repository
 
 Next, from the new GitHub repository click on the **code** button, and you should have a choice of ways to copy the code. Select **SSH**, then click the copy button to copy the repository's URL:
 
@@ -129,7 +127,7 @@ $ git clone git@github.com:yourname/climate-analysis.git
 ~~~
 {: .language-bash}
 
-> ## What if I Accidentally Cloned the Repository using HTTPS?
+> ## What if I accidentally cloned the repository using HTTPS?
 >
 > As a note, if you've already cloned a repository you can check if you selected **HTTPS** as the access method using, e.g.:
 >
@@ -178,7 +176,7 @@ Receiving objects: 100% (4/4), done.
 
 Now, if we use `ls` to list the contents of the directory, we should see we have a new directory, called `climate-analysis`, that's a **local repository** containing the code from our **remote repository**. This is linked up automatically - making it easy for us to download updates to the remote repository, or to send our changes back up to it.
 
-> ## Creating Repositories Locally
+> ## Creating repositories locally
 > 
 > You don't have to create your repositories on GitHub first!
 > If you want, you can create a repository locally by entering any directory and using `git init`. From there, you can use the other commands we introduce in this section. 
@@ -186,7 +184,7 @@ Now, if we use `ls` to list the contents of the directory, we should see we have
 {: .callout}
 
 
-# Exploring a Repository
+# Exploring a repository
 
 Now, let's **change to our code directory** and look at the files we just downloaded.
 
@@ -221,7 +219,7 @@ $ ls -a
 Git stores information about the project in here.
 If we ever delete it, we will lose the project's history.
 
-### Check Status
+### Check status
 
 We can check that everything is set up correctly
 by asking Git to tell us the status of our project with the **status** command:
@@ -248,5 +246,10 @@ Git works on **commits** - snapshots of the current state of the repository. *"n
 > In this workshop, we have a **default branch** called **main**. In older versions of Git,
 > if you create a new repository on the command line, it'll have a default branch called **master**, and a lot of examples online will show **master** instead of **main**. Don't worry - branches work the same, regardless of what they're called!
 {: .callout}
+>
+>## Key points:
+- "`git clone` creates a local copy of a repository from a URL."
+- "Git stores all of its repository data in the `.git` directory."
+- {: .keypoints}
 
 {% include links.md %}
