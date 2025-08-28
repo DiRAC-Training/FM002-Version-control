@@ -76,9 +76,12 @@ $ git config --list
 > While viewing the manual, remember the `:` is a prompt waiting for commands and you can press <kbd>Q</kbd> to exit the manual.
 >
 {: .callout}
+
+{% include links.md %}
+
 ## Key points:
 - "Use `git config` with the `--global` option to configure a user name, email address, editor, and other preferences once per machine."
 - "GitHub needs an SSH key to allow access"
 
-{% include links.md %}
-{: .keypoints}
+
+>{: .keypoints}
