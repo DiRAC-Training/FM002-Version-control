@@ -13,12 +13,6 @@ objectives:
 
 ---
 
-> ## Prerequisites
->
-> In this lesson we use Git from the Bash Shell.
-> Some previous experience with the shell is expected,
-> *but isn't mandatory*.
-{: .prereq}
 
 ## Setting up Git
 
@@ -45,13 +39,13 @@ $ git config --global user.email "fsurname@university.ac.uk"
 
 (Please use your own name and the email address you used to sign up to GitHub!)
 
-We're going to set **Nano**, a simple, minimal commaand-line text editor to be the default for when you need to edit messages.
+We're going to set **Nano**, a simple, minimal command line text editor to be the default for when you need to edit messages.
 ~~~
 $ git config --global core.editor "nano -w"`
 ~~~
 {: .language-bash}
 
-If you're already comfortable with another command-line editor, feel free to select that!
+If you're already comfortable with another command line editor, feel free to select that!
 
 Git commands are written `git action`, where `action` is what we actually want it to do. In this case, we're telling Git:
 
