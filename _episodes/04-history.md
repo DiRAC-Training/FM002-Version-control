@@ -257,8 +257,7 @@ $ git checkout <HEAD or commit ID> climate_analysis.py
 
 ![Restoring Files]({{ site.url }}{{ site.baseurl }}/fig/04-history/restore.svg){:width="60%"}
 
-The fact that files can be reverted one by one
-tends to change the way people organize their work.
+The fact that files can be reverted one by one tends to change the way people organize their work.
 
 Consider a situation where all your code is in one file, 
 and you fixed a bug in one section but accidentally introduced one elsewhere. 
