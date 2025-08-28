@@ -93,4 +93,5 @@ If you understand what they're doing under the hood, you can easily switch betwe
 ## Key points:
 - "Version control is like an unlimited ‘undo’."
 - "Version control also allows many people to work in parallel."
-  {: .keypoint}
+
+  >{: .keypoint}
