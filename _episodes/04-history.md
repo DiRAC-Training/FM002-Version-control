@@ -10,12 +10,10 @@ objectives:
 - "Identify and use Git revision numbers."
 - "Compare files with previous versions of themselves."
 - "Restore old versions of files."
-keypoints:
-- "`git diff` displays differences between commits."
-- "`git checkout` recovers old versions of files."
+
 ---
 
-### Relative History
+### Relative history
 
 We've seen that `git log` gives us some information on what commits were made when, but let's look a bit deeper at the specifics:
 
@@ -108,7 +106,7 @@ index 277d6c7..c463f71 100644
 
 And here we see the state **before the last two commits**, HEAD minus 2.
 
-### Absolute History
+### Absolute history
 
 What about if we want to compare our version of the code to the version from last month, or from the version we used to make a paper last year? 
 Calculating the number of commits is wildly impractical. 
@@ -174,13 +172,13 @@ index 277d6c7..6f8ed8a 100644
 
 This is particularly handy as you can **exactly identify specific versions of the code**, for example the one you used to write your first paper, and the different, newer version you used to write your second paper.
 
-> ## Other Ways To Reference Commits
+> ## Other ways To reference commits
 >
 > Newer versions of Git have some more advanced ways of referencing past commits. In place of `HEAD~1` you can use `HEAD~` or `HEAD@{1}`,
 > or you can even use text to ask more advanced questions, like `git diff HEAD@{"yesterday"}` or `git diff HEAD@{"3 months ago"}`!
 {: .callout}
 
-### Restoring Files
+### Restoring files
 
 All right:
 we can **save changes** to files and **see what we've changed** &mdash; suppose we need to **restore** older versions of things?
@@ -250,7 +248,7 @@ $ git checkout <HEAD or commit ID> climate_analysis.py
 > Newer systems have the function `git restore`, which is a shortcut for `git checkout --`. `checkout` has a *lot* of functions, and newer versions of Git simplify things by giving them new names.
 {: .callout}
 
-> ## Double Whoops
+> ## Double whoops
 > What if you accidentally did `git rm climate_analysis.py`? That command tells Git to *delete the file and remove it from the repository* - so it will record that the file has been deleted, then stop tracking further changes. Even if you re-make the file, it won't be tracked until you use `git add` on it again.
 >
 > The file still exists in the *history*, though so if you want to undo this you can do `git checkout HEAD climate_analysis.py`, to get the file back and start tracking it again. Since you can retrieve any file that existed in *a* previous commit, even if you removed it from future ones, this makes it important to not commit files containing passwords or sensitive information!
@@ -269,3 +267,8 @@ You can't just roll back to fix one bug without un-fixing the other.
 However, if each section is in its own file, you can just roll back the section you broke!
 
 {% include links.md %}
+
+## Key points:
+- "`git diff` displays differences between commits."
+- "`git checkout` recovers old versions of files."
+{: .keypoints}
