@@ -8,17 +8,11 @@ questions:
 objectives:
 - "Go through the modify-add-commit cycle for one or more files."
 - "Describe where changes are stored at each stage in the modify-add-commit cycle."
-keypoints:
-- "`git status` shows the status of a repository."
-- "Files can be stored in a project’s working directory (which users see), the staging area (where the next commit is being built up) and the local repository (where commits are permanently recorded)."
-- "`git add` puts files in the staging area."
-- "`git commit` saves the staged content as a new commit in the local repository."
-- "Write commit messages that accurately describe your changes."
-- "`git log --decorate` lists the commits made to the local repository, along with whether or not they are up-to-date with any remote repository."
+
 ---
 
 
-### Add to Version Control
+### Add to version control
 
 We've got a repository now containing a few pre-existing files - so let's add one more. You might remember seeing GitHub suggest we added a README.md to let people know what our code is about, so let's do that on the command line. We'll use the text editor `nano`, as:
 
@@ -80,7 +74,7 @@ $ git status
 
 Git now knows that it's supposed to **keep track** of `README.md`, just like `climate_analysis.py` and `temp_conversion.py` but it **hasn't recorded that as a commit** yet. We dont have a snapshot of the repository with all the existing files *and* `README.md`.
 
-### Initial Commit
+### Initial commit
 To get it to do that,
 we need to run one more command:
 
@@ -143,7 +137,7 @@ but **not yet committed**.
 `git add` puts things in this area,
 and `git commit` then copies them to long-term storage (as a commit)
 
-> ## What's the Point of the Staging Area?
+> ## What's the point of the staging area?
 >
 > Why do we have this two-stage process, where we **add** files to the staging area, then create a **commit** from them?
 >
@@ -237,7 +231,7 @@ much less actually saved them (which we do with `git commit`).
 
 **It's important to remember that git only stores changes when you make a commit**
 
-### Review Changes and Commit
+### Review changes and commit
 It is good practice to always **review
 our changes** before saving them. We do this using `git diff`.
 This shows us the differences between the current state
@@ -467,4 +461,12 @@ we first need to add the changed files to the staging area
 (`git add`) and then commit the staged changes to the
 repository (`git commit`).
 
+## Key points:
+- "`git status` shows the status of a repository."
+- "Files can be stored in a project’s working directory (which users see), the staging area (where the next commit is being built up) and the local repository (where commits are permanently recorded)."
+- "`git add` puts files in the staging area."
+- "`git commit` saves the staged content as a new commit in the local repository."
+- "Write commit messages that accurately describe your changes."
+- "`git log --decorate` lists the commits made to the local repository, along with whether or not they are up-to-date with any remote repository."
+{: .keypoints}
 {% include links.md %}
