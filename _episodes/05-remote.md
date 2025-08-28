@@ -274,8 +274,7 @@ Now back on GitHub we can see that our `README.md` shows the text from both comm
 Now we can successfully collaboratively develop our research code with others.
 
 > ## Conflict mitigation
-> If you've got multiple different people working on a code at once,
-> then the **branches** we mentioned earlier can really help reduce conflicts.
+> If you've got multiple different people working on a code at once, then the **branches** we mentioned earlier can really help reduce conflicts.
 > Each collaborator can work on their own branch, and only merge them back in once everything is finished - dramatically reducing the number of conflicts!
 {: .callout}
 
