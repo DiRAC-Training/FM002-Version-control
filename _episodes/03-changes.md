@@ -108,7 +108,7 @@ Git takes everything we have told it to save by using `git add`
 and stores a copy permanently inside the special `.git` directory.
 This permanent copy is called a **[revision](reference.html#revision)**
 and its short **identifier** is `fa90884`.
-(Your revision will have different identifier.)
+(Your revision will have a different identifier.)
 
 If we run `git status` now:
 
