@@ -142,7 +142,7 @@ and `git commit` then copies them to long-term storage (as a commit).
 > Why do we have this two-stage process, where we **add** files to the staging area, then create a **commit** from them?
 >
 > Among other reasons, it allows you to easily bundle together a lot of changes in one go. If you changed the name of a variable used in multiple files (e.g. from `t` to `temperature`), you'd need to change it in all your files in one go in order for it to make sense.
-> If you stored a copy of each file one-by-one you'd end up with a lot of versions of the code that didn't work - variables with different names everywhere. The **staging area** lets you bundle together all those small changes that don't work in isolation into one big change that's coherent. 
+> If you stored a copy of each file one-by-one you'd end up with a lot of versions of the code that didn't work, i.e. variables with different names everywhere. The **staging area** lets you bundle together all those small changes that don't work in isolation into one big change that's coherent. 
 >
 > Git does give you shortcuts to reduce **add -> commit** to a single step, but when you're starting out it's always better to make sure you know what's going into each commit!
 {: .callout}
