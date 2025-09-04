@@ -80,7 +80,7 @@ $ git config --list
 {% include links.md %}
 
 ## Key points:
-- "Use `git config` with the `--global` option to configure a user name, email address, editor, and other preferences once per machine."
+- "Use `git config` with the `--global` option to configure a username, email address, editor, and other preferences once per machine."
 - "GitHub needs an SSH key to allow access"
 
 
