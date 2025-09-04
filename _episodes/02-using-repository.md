@@ -174,7 +174,7 @@ Receiving objects: 100% (4/4), done.
 ~~~
 {: .output}
 
-Now, if we use `ls` to list the contents of the directory, we should see we have a new directory, called `climate-analysis`, that's a **local repository** containing the code from our **remote repository**. This is linked up automatically - making it easy for us to download updates to the remote repository, or to send our changes back up to it.
+Now, if we use `ls` to list the contents of the directory, we should see we have a new directory, called `climate-analysis`, that's a **local repository** containing the code from our **remote repository**. This is linked up automatically, making it easy for us to download updates to the remote repository or to send our changes back up to it.
 
 > ## Creating repositories locally
 > 
