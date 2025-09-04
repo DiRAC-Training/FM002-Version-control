@@ -227,7 +227,7 @@ The last line is the key phrase:
 We have changed this file, but we haven't told Git we will want to save those changes
 (which we do with `git add`), much less actually saved them (which we do with `git commit`).
 
-**It's important to remember that Git only stores changes when you make a commit**
+**It's important to remember that Git only stores changes when you make a commit**.
 
 ### Review changes and commit
 It is good practice to always **review
@@ -260,7 +260,7 @@ telling them how **to reconstruct one file given the other**.
 The key things to note are:
 
  1. Line 1: The **files** that are being **compared** (a/ and b/ are labels, not paths).
- 2. Line 2: The two **hex strings** on the second line which parts of the **hashes** of the files being compares.
+ 2. Line 2: The two **hex strings** on the second line which parts of the **hashes** of the files being compared.
  3. Line 5: The **lines** that have changed. (It's complex).
  4. Below that, the changes - note the '**+**' marker which shows an addition.
 
