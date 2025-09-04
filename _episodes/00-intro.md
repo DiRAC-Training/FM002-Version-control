@@ -72,10 +72,9 @@ and provide all kinds of extra tools to manage software projects.
 Plus, GitHub offers free upgraded membership to academics, students and educators -
 you can apply [here](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/apply-for-an-educator-or-researcher-discount).
 
-If you're working on old projects, or ones with very specific needs, you might use **Mercurial**, another distributed system,
-or possibly **Subversion**, a **centralised** system where there's a single copy of the repository that everyone connects to.
+If you're working on old projects, or ones with very specific needs, you might use **Mercurial** (another distributed system), or possibly **Subversion** (a **centralised** system where there's a single copy of the repository that everyone connects to).
 
-Because Git is so popular, and making a GitHub account is so easy, we're going to teach you how to use them.
+Because Git is so popular and making a GitHub account is so easy, we're going to teach you how to use them.
 
 ## Graphical user interfaces ##
 
@@ -86,7 +85,7 @@ We're going to teach you how to use Git on the *command line*, as that's the onl
 | ![SourceTree]({{ site.url }}{{ site.baseurl }}/fig/00-intro/sourcetree.png){:width="100%"} | ![Git Kraken]({{ site.url }}{{ site.baseurl }}/fig/00-intro/kraken.png){:width="100%"} | ![GitHub Desktop]({{ site.url }}{{ site.baseurl }}/fig/00-intro/desktop.png){:width="100%"} |
 
 Fundamentally, though, these are all just 'wrappers' around the command line version of Git.
-If you understand what they're doing under the hood, you can easily switch between versions. You can, for example, manage your code on DIRAC using command-line git and GitHub Desktop on your desktop workstation.
+If you understand what they're doing under the hood, you can easily switch between versions. You can, for example, manage your code on DIRAC using command line Git and GitHub Desktop on your desktop workstation.
 
 {% include links.md %}
 
