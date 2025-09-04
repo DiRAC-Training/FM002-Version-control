@@ -184,7 +184,7 @@ The listing for each revision includes
 * **when** it was created,
 * the **log message** Git was given when the revision was committed.
 
-### Modify a file (1)
+### Modify a file
 Now suppose we modify an existing file, for example by adding a **Docstring** to the **top** of one of the files:
 
 ~~~
