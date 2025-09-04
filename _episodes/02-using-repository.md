@@ -179,7 +179,7 @@ Now, if we use `ls` to list the contents of the directory, we should see we have
 > ## Creating repositories locally
 > 
 > You don't have to create your repositories on GitHub first!
-> If you want, you can create a repository locally by entering any directory and using `git init`. From there, you can use the other commands we introduce in this section. 
+> If you want, you can create a repository locally by entering any directory and using `git init`. From there, you can use the other commands we introduced in this section. 
 > You can connect a local repository to an empty remote one using `git remote add origin URL_OF_REMOTE`.
 {: .callout}
 
