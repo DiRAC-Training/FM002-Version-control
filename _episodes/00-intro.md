@@ -30,14 +30,14 @@ Using **version control** means **we don't keep dozens of different versions** o
 
 ### 2. Reproducibility ###
 
-When you use  **version control**, at any point in the future, you can retrieve the **correct versions** of your documents, scripts or code.  So, for example, a year after **publication**, you can get hold of the **precise combination** of scripts and data that you used to assemble a paper.
+When you use  **version control** you can retrieve the **correct versions** of your documents, scripts or code at any point in the future.  So, for example, a year after **publication**, you can get hold of the **precise combination** of scripts and data that you used to assemble a paper.
 
 Version control makes **reproducibility** simpler. Without using version control it's very hard to say that your research is truly reproducible...
 
 
 ### 3. To aid collaboration ###
 
-As well as maintaining a revison history, VC tools also help multiple authors **collaborate** on the **same file** or set of files.
+As well as maintaining a revision history, VC tools also help multiple authors **collaborate** on the **same file** or set of files.
 
  **Professional software developers** use VC to work in large **teams** and to keep track of what they've done. If you know what changes have been made to each file, you can easily combine multiple people's changes to a single file. You can also track down where and when (and by who!) bugs in the code were introduced.
 
