@@ -7,7 +7,7 @@ questions:
 - "How do I get set up to use Git?"
 - "How do I set up my account on GitHub?"
 objectives:
-- "Configure `git` the first time it is used on a computer"
+- "Configure `Git` the first time it is used on a computer"
 - "Understand the meaning of the `--global` configuration flag"
 - "Add an SSH key to a GitHub account"
 
