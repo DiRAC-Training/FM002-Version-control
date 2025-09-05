@@ -78,7 +78,7 @@ index d5b442d..c463f71 100644
 ~~~
 {: .output}
 
-So we see the difference between the file as it is now, and as it was **the commit before before the latest one**.
+So we see the difference between the file as it is now, and as it was **the commit before the latest one**.
 
 ~~~
 $ git diff HEAD~2 climate_analysis.py
