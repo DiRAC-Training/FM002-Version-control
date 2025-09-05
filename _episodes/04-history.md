@@ -15,7 +15,7 @@ objectives:
 
 ### Relative history
 
-We've seen that `git log` gives us some information on what commits were made when, but let's look a bit deeper at the specifics:
+We've seen that `git log` gives us some information on what commits were made and when, but let's look a bit deeper at the specifics:
 
 ~~~
 $ git log
